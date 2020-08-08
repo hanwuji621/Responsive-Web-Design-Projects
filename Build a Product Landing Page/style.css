@@ -1,0 +1,119 @@
+body {
+    background-color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: -10px;
+}
+
+#nav-bar {
+    margin: 20px 0 0 900px;
+}
+
+.nav-link {
+    margin: 0 50px 0 0;
+}
+
+form {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+#email {
+    width: 300px;
+    height: 25px;
+    font-size: 20px;;
+}
+
+#submit {
+    width: 150px;
+    height: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top:10px;
+    background-color: orange;
+}
+
+#features {
+    margin: 150px 250px 50px 250px;
+}
+
+.featureSpecific{
+    display: flex;
+    flex-direction: row;
+} 
+
+.picSpecific {
+    width: 100px;
+    height: 80px;
+    margin: auto 50px;
+}
+
+#howWorks {
+    text-align: center;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 200px 50px 200px;
+} 
+
+.product {
+    border-style: solid;
+    border-width: 0.5px;;
+    text-align: center;
+    width: 320px;
+    height: 400px;
+    
+}
+
+.product h4 {
+    background-color: gainsboro;
+    padding: 15px 2px 15px 2px;
+    margin-top: 0px;
+}
+
+.product button {
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    font-size: 20px;
+}
+
+footer {
+    background-color: gainsboro;
+    margin: 0 200px 0 200px;
+}
+
+#footer-nav {
+    margin: 20px 0 20px 100px;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.footer-nav-link {
+    margin: 0 20px 0 0;
+}
+
+footer p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 350px) {
+    #header {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: -10px;
+    }
+}
+
